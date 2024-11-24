@@ -1,20 +1,12 @@
 import "./App.css";
-import Search from "./components/Search.js";
-
-
-
+import Search from "./pages/Search";
 
 function App() {
-
-  
- 
-  return(
-  <>
-  <Search/>
-  
-  
-  </>
-)
+  return (
+    <>
+      <Search />
+    </>
+  );
 }
 
 export default App;
